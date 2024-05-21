@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SensorDataApp_GUI.dir/main.cpp.o CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.o CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.o -o SensorDataApp_GUI  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Sql.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/Trabajo_Iot/src/src
+CMAKE_SOURCE_DIR = /home/cristianr/Trabajo_Iot/src/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/Trabajo_Iot/src/src/build
+CMAKE_BINARY_DIR = /home/cristianr/Trabajo_Iot/src/src/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Trabajo_Iot/src/src/build/CMakeFiles /tmp/Trabajo_Iot/src/src/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles /home/cristianr/Trabajo_Iot/src/src/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Trabajo_Iot/src/src/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SensorDataApp
+# Target rules for targets named SensorDataApp_Console
 
 # Build rule for target.
-SensorDataApp: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SensorDataApp
-.PHONY : SensorDataApp
+SensorDataApp_Console: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SensorDataApp_Console
+.PHONY : SensorDataApp_Console
 
 # fast build rule for target.
-SensorDataApp/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/build
-.PHONY : SensorDataApp/fast
+SensorDataApp_Console/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/build
+.PHONY : SensorDataApp_Console/fast
+
+#=============================================================================
+# Target rules for targets named SensorDataApp_GUI
+
+# Build rule for target.
+SensorDataApp_GUI: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SensorDataApp_GUI
+.PHONY : SensorDataApp_GUI
+
+# fast build rule for target.
+SensorDataApp_GUI/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/build
+.PHONY : SensorDataApp_GUI/fast
 
 base_datos.o: base_datos.cpp.o
 .PHONY : base_datos.o
 
 # target to build an object file
 base_datos.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/base_datos.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/base_datos.cpp.o
 .PHONY : base_datos.cpp.o
 
 base_datos.i: base_datos.cpp.i
@@ -142,7 +155,7 @@ base_datos.i: base_datos.cpp.i
 
 # target to preprocess a source file
 base_datos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/base_datos.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/base_datos.cpp.i
 .PHONY : base_datos.cpp.i
 
 base_datos.s: base_datos.cpp.s
@@ -150,15 +163,39 @@ base_datos.s: base_datos.cpp.s
 
 # target to generate assembly for a file
 base_datos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/base_datos.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/base_datos.cpp.s
 .PHONY : base_datos.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 main_consulta.o: main_consulta.cpp.o
 .PHONY : main_consulta.o
 
 # target to build an object file
 main_consulta.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/main_consulta.cpp.o
 .PHONY : main_consulta.cpp.o
 
 main_consulta.i: main_consulta.cpp.i
@@ -166,7 +203,7 @@ main_consulta.i: main_consulta.cpp.i
 
 # target to preprocess a source file
 main_consulta.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/main_consulta.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/main_consulta.cpp.i
 .PHONY : main_consulta.cpp.i
 
 main_consulta.s: main_consulta.cpp.s
@@ -174,15 +211,63 @@ main_consulta.s: main_consulta.cpp.s
 
 # target to generate assembly for a file
 main_consulta.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/main_consulta.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/main_consulta.cpp.s
 .PHONY : main_consulta.cpp.s
+
+mainwindow.o: mainwindow.cpp.o
+.PHONY : mainwindow.o
+
+# target to build an object file
+mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.o
+.PHONY : mainwindow.cpp.o
+
+mainwindow.i: mainwindow.cpp.i
+.PHONY : mainwindow.i
+
+# target to preprocess a source file
+mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.i
+.PHONY : mainwindow.cpp.i
+
+mainwindow.s: mainwindow.cpp.s
+.PHONY : mainwindow.s
+
+# target to generate assembly for a file
+mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.s
+.PHONY : mainwindow.cpp.s
+
+moc_mainwindow.o: moc_mainwindow.cpp.o
+.PHONY : moc_mainwindow.o
+
+# target to build an object file
+moc_mainwindow.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.o
+.PHONY : moc_mainwindow.cpp.o
+
+moc_mainwindow.i: moc_mainwindow.cpp.i
+.PHONY : moc_mainwindow.i
+
+# target to preprocess a source file
+moc_mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.i
+.PHONY : moc_mainwindow.cpp.i
+
+moc_mainwindow.s: moc_mainwindow.cpp.s
+.PHONY : moc_mainwindow.s
+
+# target to generate assembly for a file
+moc_mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.s
+.PHONY : moc_mainwindow.cpp.s
 
 sensores.o: sensores.cpp.o
 .PHONY : sensores.o
 
 # target to build an object file
 sensores.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/sensores.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/sensores.cpp.o
 .PHONY : sensores.cpp.o
 
 sensores.i: sensores.cpp.i
@@ -190,7 +275,7 @@ sensores.i: sensores.cpp.i
 
 # target to preprocess a source file
 sensores.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/sensores.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/sensores.cpp.i
 .PHONY : sensores.cpp.i
 
 sensores.s: sensores.cpp.s
@@ -198,7 +283,7 @@ sensores.s: sensores.cpp.s
 
 # target to generate assembly for a file
 sensores.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/sensores.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/sensores.cpp.s
 .PHONY : sensores.cpp.s
 
 # Help Target
@@ -209,13 +294,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... SensorDataApp"
+	@echo "... SensorDataApp_Console"
+	@echo "... SensorDataApp_GUI"
 	@echo "... base_datos.o"
 	@echo "... base_datos.i"
 	@echo "... base_datos.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 	@echo "... main_consulta.o"
 	@echo "... main_consulta.i"
 	@echo "... main_consulta.s"
+	@echo "... mainwindow.o"
+	@echo "... mainwindow.i"
+	@echo "... mainwindow.s"
+	@echo "... moc_mainwindow.o"
+	@echo "... moc_mainwindow.i"
+	@echo "... moc_mainwindow.s"
 	@echo "... sensores.o"
 	@echo "... sensores.i"
 	@echo "... sensores.s"

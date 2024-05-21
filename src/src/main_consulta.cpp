@@ -6,6 +6,8 @@
 #include "base_datos.h"
 
 int main(int argc, char* argv[]) {
+
+    
     if (argc != 3) {
         std::cout << "Uso: " << argv[0] << " <nombre_db> <periodo_adquisicion>" << std::endl;
         return 1;

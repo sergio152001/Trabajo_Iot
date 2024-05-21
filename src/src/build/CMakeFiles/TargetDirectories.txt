@@ -1,3 +1,4 @@
-/tmp/Trabajo_Iot/src/src/build/CMakeFiles/SensorDataApp.dir
-/tmp/Trabajo_Iot/src/src/build/CMakeFiles/edit_cache.dir
-/tmp/Trabajo_Iot/src/src/build/CMakeFiles/rebuild_cache.dir
+/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles/SensorDataApp_Console.dir
+/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles/SensorDataApp_GUI.dir
+/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles/edit_cache.dir
+/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles/rebuild_cache.dir

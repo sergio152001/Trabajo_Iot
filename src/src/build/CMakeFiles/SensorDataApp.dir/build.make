@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/Trabajo_Iot/src/src
+CMAKE_SOURCE_DIR = /home/cristianr/Trabajo_Iot/src/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/Trabajo_Iot/src/src/build
+CMAKE_BINARY_DIR = /home/cristianr/Trabajo_Iot/src/src/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SensorDataApp.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/SensorDataApp.dir/flags.make
 CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o: CMakeFiles/SensorDataApp.dir/flags.make
 CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o: ../main_consulta.cpp
 CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o: CMakeFiles/SensorDataApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o -MF CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o.d -o CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o -c /tmp/Trabajo_Iot/src/src/main_consulta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o -MF CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o.d -o CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o -c /home/cristianr/Trabajo_Iot/src/src/main_consulta.cpp
 
 CMakeFiles/SensorDataApp.dir/main_consulta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SensorDataApp.dir/main_consulta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/Trabajo_Iot/src/src/main_consulta.cpp > CMakeFiles/SensorDataApp.dir/main_consulta.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristianr/Trabajo_Iot/src/src/main_consulta.cpp > CMakeFiles/SensorDataApp.dir/main_consulta.cpp.i
 
 CMakeFiles/SensorDataApp.dir/main_consulta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SensorDataApp.dir/main_consulta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/Trabajo_Iot/src/src/main_consulta.cpp -o CMakeFiles/SensorDataApp.dir/main_consulta.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristianr/Trabajo_Iot/src/src/main_consulta.cpp -o CMakeFiles/SensorDataApp.dir/main_consulta.cpp.s
 
 CMakeFiles/SensorDataApp.dir/base_datos.cpp.o: CMakeFiles/SensorDataApp.dir/flags.make
 CMakeFiles/SensorDataApp.dir/base_datos.cpp.o: ../base_datos.cpp
 CMakeFiles/SensorDataApp.dir/base_datos.cpp.o: CMakeFiles/SensorDataApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SensorDataApp.dir/base_datos.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/base_datos.cpp.o -MF CMakeFiles/SensorDataApp.dir/base_datos.cpp.o.d -o CMakeFiles/SensorDataApp.dir/base_datos.cpp.o -c /tmp/Trabajo_Iot/src/src/base_datos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SensorDataApp.dir/base_datos.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/base_datos.cpp.o -MF CMakeFiles/SensorDataApp.dir/base_datos.cpp.o.d -o CMakeFiles/SensorDataApp.dir/base_datos.cpp.o -c /home/cristianr/Trabajo_Iot/src/src/base_datos.cpp
 
 CMakeFiles/SensorDataApp.dir/base_datos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SensorDataApp.dir/base_datos.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/Trabajo_Iot/src/src/base_datos.cpp > CMakeFiles/SensorDataApp.dir/base_datos.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristianr/Trabajo_Iot/src/src/base_datos.cpp > CMakeFiles/SensorDataApp.dir/base_datos.cpp.i
 
 CMakeFiles/SensorDataApp.dir/base_datos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SensorDataApp.dir/base_datos.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/Trabajo_Iot/src/src/base_datos.cpp -o CMakeFiles/SensorDataApp.dir/base_datos.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristianr/Trabajo_Iot/src/src/base_datos.cpp -o CMakeFiles/SensorDataApp.dir/base_datos.cpp.s
 
 CMakeFiles/SensorDataApp.dir/sensores.cpp.o: CMakeFiles/SensorDataApp.dir/flags.make
 CMakeFiles/SensorDataApp.dir/sensores.cpp.o: ../sensores.cpp
 CMakeFiles/SensorDataApp.dir/sensores.cpp.o: CMakeFiles/SensorDataApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SensorDataApp.dir/sensores.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/sensores.cpp.o -MF CMakeFiles/SensorDataApp.dir/sensores.cpp.o.d -o CMakeFiles/SensorDataApp.dir/sensores.cpp.o -c /tmp/Trabajo_Iot/src/src/sensores.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SensorDataApp.dir/sensores.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SensorDataApp.dir/sensores.cpp.o -MF CMakeFiles/SensorDataApp.dir/sensores.cpp.o.d -o CMakeFiles/SensorDataApp.dir/sensores.cpp.o -c /home/cristianr/Trabajo_Iot/src/src/sensores.cpp
 
 CMakeFiles/SensorDataApp.dir/sensores.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SensorDataApp.dir/sensores.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/Trabajo_Iot/src/src/sensores.cpp > CMakeFiles/SensorDataApp.dir/sensores.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cristianr/Trabajo_Iot/src/src/sensores.cpp > CMakeFiles/SensorDataApp.dir/sensores.cpp.i
 
 CMakeFiles/SensorDataApp.dir/sensores.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SensorDataApp.dir/sensores.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/Trabajo_Iot/src/src/sensores.cpp -o CMakeFiles/SensorDataApp.dir/sensores.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cristianr/Trabajo_Iot/src/src/sensores.cpp -o CMakeFiles/SensorDataApp.dir/sensores.cpp.s
 
 # Object files for target SensorDataApp
 SensorDataApp_OBJECTS = \
@@ -126,7 +126,7 @@ SensorDataApp: CMakeFiles/SensorDataApp.dir/sensores.cpp.o
 SensorDataApp: CMakeFiles/SensorDataApp.dir/build.make
 SensorDataApp: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 SensorDataApp: CMakeFiles/SensorDataApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SensorDataApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable SensorDataApp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SensorDataApp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +138,6 @@ CMakeFiles/SensorDataApp.dir/clean:
 .PHONY : CMakeFiles/SensorDataApp.dir/clean
 
 CMakeFiles/SensorDataApp.dir/depend:
-	cd /tmp/Trabajo_Iot/src/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/Trabajo_Iot/src/src /tmp/Trabajo_Iot/src/src /tmp/Trabajo_Iot/src/src/build /tmp/Trabajo_Iot/src/src/build /tmp/Trabajo_Iot/src/src/build/CMakeFiles/SensorDataApp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cristianr/Trabajo_Iot/src/src/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cristianr/Trabajo_Iot/src/src /home/cristianr/Trabajo_Iot/src/src /home/cristianr/Trabajo_Iot/src/src/build /home/cristianr/Trabajo_Iot/src/src/build /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles/SensorDataApp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SensorDataApp.dir/depend
 

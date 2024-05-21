@@ -54,16 +54,17 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/Trabajo_Iot/src/src
+CMAKE_SOURCE_DIR = /home/cristianr/Trabajo_Iot/src/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/Trabajo_Iot/src/src/build
+CMAKE_BINARY_DIR = /home/cristianr/Trabajo_Iot/src/src/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/SensorDataApp.dir/all
+all: CMakeFiles/SensorDataApp_Console.dir/all
+all: CMakeFiles/SensorDataApp_GUI.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/SensorDataApp.dir/clean
+clean: CMakeFiles/SensorDataApp_Console.dir/clean
+clean: CMakeFiles/SensorDataApp_GUI.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/SensorDataApp.dir
+# Target rules for target CMakeFiles/SensorDataApp_Console.dir
 
 # All Build rule for target.
-CMakeFiles/SensorDataApp.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tmp/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=1,2,3,4 "Built target SensorDataApp"
-.PHONY : CMakeFiles/SensorDataApp.dir/all
+CMakeFiles/SensorDataApp_Console.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=1,2,3,4 "Built target SensorDataApp_Console"
+.PHONY : CMakeFiles/SensorDataApp_Console.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/SensorDataApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Trabajo_Iot/src/src/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SensorDataApp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/Trabajo_Iot/src/src/build/CMakeFiles 0
-.PHONY : CMakeFiles/SensorDataApp.dir/rule
+CMakeFiles/SensorDataApp_Console.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SensorDataApp_Console.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/SensorDataApp_Console.dir/rule
 
 # Convenience name for target.
-SensorDataApp: CMakeFiles/SensorDataApp.dir/rule
-.PHONY : SensorDataApp
+SensorDataApp_Console: CMakeFiles/SensorDataApp_Console.dir/rule
+.PHONY : SensorDataApp_Console
 
 # clean rule for target.
-CMakeFiles/SensorDataApp.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp.dir/build.make CMakeFiles/SensorDataApp.dir/clean
-.PHONY : CMakeFiles/SensorDataApp.dir/clean
+CMakeFiles/SensorDataApp_Console.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_Console.dir/build.make CMakeFiles/SensorDataApp_Console.dir/clean
+.PHONY : CMakeFiles/SensorDataApp_Console.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/SensorDataApp_GUI.dir
+
+# All Build rule for target.
+CMakeFiles/SensorDataApp_GUI.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles --progress-num=5,6,7,8,9,10 "Built target SensorDataApp_GUI"
+.PHONY : CMakeFiles/SensorDataApp_GUI.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/SensorDataApp_GUI.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SensorDataApp_GUI.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cristianr/Trabajo_Iot/src/src/build/CMakeFiles 0
+.PHONY : CMakeFiles/SensorDataApp_GUI.dir/rule
+
+# Convenience name for target.
+SensorDataApp_GUI: CMakeFiles/SensorDataApp_GUI.dir/rule
+.PHONY : SensorDataApp_GUI
+
+# clean rule for target.
+CMakeFiles/SensorDataApp_GUI.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SensorDataApp_GUI.dir/build.make CMakeFiles/SensorDataApp_GUI.dir/clean
+.PHONY : CMakeFiles/SensorDataApp_GUI.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,4 +1,4 @@
-CMakeFiles/SensorDataApp.dir/sensores.cpp.o: \
+CMakeFiles/SensorDataApp_Console.dir/sensores.cpp.o: \
  /home/cristianr/Trabajo_Iot/src/src/sensores.cpp \
  /usr/include/stdc-predef.h \
  /home/cristianr/Trabajo_Iot/src/src/sensores.h \
@@ -13,6 +13,7 @@ CMakeFiles/SensorDataApp.dir/sensores.cpp.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+ /usr/include/c++/11/pstl/pstl_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
