@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SensorDataApp.dir/main_consulta.cpp.o CMakeFiles/SensorDataApp.dir/base_datos.cpp.o CMakeFiles/SensorDataApp.dir/sensores.cpp.o -o SensorDataApp  /usr/lib/x86_64-linux-gnu/libsqlite3.so 
