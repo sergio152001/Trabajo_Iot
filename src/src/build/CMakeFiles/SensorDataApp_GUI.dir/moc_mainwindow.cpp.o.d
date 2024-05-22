@@ -1,5 +1,5 @@
 CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.o: \
- /home/cristianr/Trabajo_Iot/src/src/build/moc_mainwindow.cpp \
+ /home/sergio/Trabajo_Iot/src/src/build/moc_mainwindow.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -116,7 +116,7 @@ CMakeFiles/SensorDataApp_GUI.dir/moc_mainwindow.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/cristianr/Trabajo_Iot/src/src/build/../mainwindow.h \
+ /home/sergio/Trabajo_Iot/src/src/build/../mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \

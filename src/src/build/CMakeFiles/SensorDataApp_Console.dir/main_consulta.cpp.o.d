@@ -1,5 +1,5 @@
 CMakeFiles/SensorDataApp_Console.dir/main_consulta.cpp.o: \
- /home/cristianr/Trabajo_Iot/src/src/main_consulta.cpp \
+ /home/sergio/Trabajo_Iot/src/src/main_consulta.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -159,5 +159,5 @@ CMakeFiles/SensorDataApp_Console.dir/main_consulta.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/cristianr/Trabajo_Iot/src/src/sensores.h \
- /home/cristianr/Trabajo_Iot/src/src/base_datos.h /usr/include/sqlite3.h
+ /home/sergio/Trabajo_Iot/src/src/sensores.h \
+ /home/sergio/Trabajo_Iot/src/src/base_datos.h /usr/include/sqlite3.h

@@ -1,7 +1,6 @@
 CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.o: \
- /home/cristianr/Trabajo_Iot/src/src/mainwindow.cpp \
- /usr/include/stdc-predef.h \
- /home/cristianr/Trabajo_Iot/src/src/mainwindow.h \
+ /home/sergio/Trabajo_Iot/src/src/mainwindow.cpp \
+ /usr/include/stdc-predef.h /home/sergio/Trabajo_Iot/src/src/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -594,7 +593,7 @@ CMakeFiles/SensorDataApp_GUI.dir/mainwindow.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqlresult.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qsqltablemodel.h \
  /usr/include/x86_64-linux-gnu/qt5/QtSql/qtsqlversion.h \
- /home/cristianr/Trabajo_Iot/src/src/ui_mainwindow.h \
+ /home/sergio/Trabajo_Iot/src/src/ui_mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \

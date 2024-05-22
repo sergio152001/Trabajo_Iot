@@ -1,6 +1,6 @@
 CMakeFiles/SensorDataApp_GUI.dir/main.cpp.o: \
- /home/cristianr/Trabajo_Iot/src/src/main.cpp /usr/include/stdc-predef.h \
- /home/cristianr/Trabajo_Iot/src/src/mainwindow.h \
+ /home/sergio/Trabajo_Iot/src/src/main.cpp /usr/include/stdc-predef.h \
+ /home/sergio/Trabajo_Iot/src/src/mainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
